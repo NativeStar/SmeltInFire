@@ -7,10 +7,6 @@ import net.minecraft.entity.ExperienceOrbEntity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
@@ -27,10 +23,6 @@ public abstract class ItemEntityMixin extends Entity {
 
     @Shadow
     public abstract ItemStack getStack();
-
-    @Shadow
-    @Nullable
-    private UUID thrower;
 
     public ItemEntityMixin(EntityType<?> type, World world) {
         super(type, world);

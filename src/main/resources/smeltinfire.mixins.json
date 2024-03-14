@@ -4,6 +4,7 @@
   "package": "com.suisho.mcmod.smeltinfire.release.smeltinfire.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ItemEntityMixin"
   ],
   "client": [
   ],
