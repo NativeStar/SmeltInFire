@@ -9,7 +9,7 @@
     "repo": "https://github.com/z2858/SmeltInFire"
   },
   "license": "MIT",
-  "icon": "assets/smeltinfire/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
