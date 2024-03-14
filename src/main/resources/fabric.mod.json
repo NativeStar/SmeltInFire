@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "smeltinfire",
+  "version": "${version}",
+  "name": "SmeltInFire",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/z2858/SmeltInFire"
+  },
+  "license": "MIT",
+  "icon": "assets/smeltinfire/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.suisho.mcmod.smeltinfire.release.smeltinfire.client.SmeltInFireClient"
+    ],
+    "main": [
+      "com.suisho.mcmod.smeltinfire.release.smeltinfire.SmeltInFire"
+    ]
+  },
+  "mixins": [
+    "smeltinfire.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
